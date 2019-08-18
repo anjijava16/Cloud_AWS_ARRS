@@ -1,9 +1,10 @@
 # Cloud_AWS_ARRS
 
  # Cloud-AccountReceivableReportSystem
-===================================
-   Getting data from different states in USA (Account receivable data as files)
+  ``` 
+Getting data from different states in USA (Account receivable data as files)
    Domain : Accounts(Receivable Information)
+```
 
 # Source: Flat Files/CSV Files/CSV
 
@@ -22,7 +23,7 @@
     AIRFLOW ==> IN DEV CREATE EC2 SERVER.
      IAM Rules ==> S3FULLACCESSRULES
 
-``NOTE: CREATE ELASTIC IP ```
+``` NOTE: CREATE ELASTIC IP ```
 
 
 COST:
