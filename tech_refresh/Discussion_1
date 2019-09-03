@@ -68,3 +68,23 @@ https://github.com/nikkisharma536/airflow-jobs
 https://github.com/aws-samples/aws-emr-basketball-tool
 
 
+
+Tech components:
+i)  	Github  -->Souce code repo
+ii) 	Apache Airflow --> job Processing /Schduling
+iii)    EMR Cluster 5.2
+iv)     EC2-Server
+v)      S3 (Storage):
+                      3 buckets
+					   1)raw data 
+					   ii)cleaned data
+					   iii)Target data (output)
+vi)     Apache Spark (For Read/tranformation/write)
+vii)    AWS RedShift (Final Storage) 
+viii)   Tablue Reporting
+ix)     config-system (Mysql)
+x)      microservices (accountreceviable-rest-services) (Audit purpose)
+xi)   AWS SES (Email Services) : Job Start & end details send through SES Services
+xii) Application related all logs will be store into the One S3 bucket s3://accountreceviable_Logs_bycket/DDMMYYYY.log/
+
+
