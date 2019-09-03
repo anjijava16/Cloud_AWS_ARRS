@@ -1,0 +1,70 @@
+
+Project Overview :
+ACCOUNT Receviable 
+
+https://github.com/anjijava16/Cloud_AWS_ARRS
+
+
+
+Languages : Scala / Python /Java 
+
+Cluster : Hadoop Cluster /EMR Cloud 
+
+Spark Core
+   RDD
+   Types of RDDS
+   Tranforamtion
+   Action
+   Different tranformation and actions 
+   
+   
+
+Spark SQL
+         Reader: FIles,HDFS Files/S3 Files, JDBC, NOSQL(Hbase,Cassandra,MongoDB,ElasticSearch),different types of fiels(orc,parquet,avro,json,xml,delta ,csv,any demiliter files)
+		 Writer: FIles,HDFS Files/S3 Files, JDBC, NOSQL,different types of fiels(orc,parquet,avro,json,xml,delta ,csv,any demiliter files)
+		 
+		 
+		 Reader
+		 
+		 Transformer Logic (SQL Logic Select,2 joins,sub ,anlayatics functions)
+		 
+		 
+		 Writer
+		
+		
+Spark Streaming :
+                    Spark DStreaming
+					Spark Structure Streaming 
+					
+					
+
+
+Python (Read/Listen video,Must be practise in IDE)
+
+Pyspark (Python +Spark) : Spark SQL 
+
+
+Python
+S3 (Storage)
+EMR Hadoop
+Python Spark (PySpark)
+RedShift (Copy Command)
+Tablue 
+
+Step 1: Read S3 Files 
+Step 2: Create EMR 5 Nodes Cluster 
+Step 3: Processing the ELT Logic 
+Step 4: Write output  to S3 Based on Step3 (ETL Transformation Logic)
+Step 5: Terminate EMR 5 Nodes  Cluster
+Step 6: Copy S3 output data into RedShift 
+
+The Above all steps We are using Apache Airflow Orach/Schedular System 
+
+
+Each Step releaed All Logics / Logs will be stored into the MySQL Database  
+					
+https://confusedcoders.com/data-engineering/real-world-application-project-for-big-data-with-apache-spark-and-aws-emr
+https://github.com/nikkisharma536/airflow-jobs
+https://github.com/aws-samples/aws-emr-basketball-tool
+
+
