@@ -1,0 +1,23 @@
+ Modules
+
+
+Step 1:
+Data Generation
+Data Ingestion
+
+Step 2:
+EMR Cluster Creation Automatically : Python/ Shell 
+
+Step 3:
+ Data Reader Into the S3 Source Location
+ Data PreProcess
+ Data PreDQAChecks
+ Data Transformertion
+ Data Post DQA
+ Data Writer Into S3 Target Location
+
+Step 4:
+EMR Cluster Creation Termination : Python/ Shell 
+
+
+
